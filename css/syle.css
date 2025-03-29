@@ -69,3 +69,7 @@ body{
     flex: 1; /* takes the rest of the space */
     padding: 20px;
 }
+
+.contact{
+    margin-top: auto;
+}
