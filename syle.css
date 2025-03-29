@@ -33,8 +33,7 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center -15px;
-    transform: scale(0.999);
+    object-position: center -50px;
 }
 
 .sidebar h2 {
@@ -59,8 +58,13 @@ body{
     text-decoration: underline;
 }
 
+hr{
+    border: none;
+    height: 2px;
+    background-color: #ebb57e;
+}
+
 .content {
     flex: 1; /* takes the rest of the space */
     padding: 20px;
-    background-color: #f9f9f9;
 }
