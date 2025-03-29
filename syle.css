@@ -16,7 +16,6 @@ body{
     background-color: #ffc489;
     color: #000000;
     padding: 20px;
-    position: fixed; /* stays on the side */
 }
 
 .sidebar h2 {
