@@ -17,9 +17,6 @@ body{
     color: #000000;
     padding: 20px;
     position: fixed; /* stays on the side */
-    left: 0;
-    top: 0;
-    box-shadow:;
 }
 
 .sidebar h2 {
