@@ -21,12 +21,20 @@ body{
     align-items: center;
 }
 
-.profile {
+.profile-container {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    object-fit: cover;
+    overflow: hidden; /* <--- THIS will cut it nicely */
     margin-bottom: 20px;
+}
+
+.profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center -15px;
+    transform: scale(0.999);
 }
 
 .sidebar h2 {
