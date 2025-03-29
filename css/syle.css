@@ -58,7 +58,7 @@ body{
     text-decoration: underline;
 }
 
-hr{
+.line{
     border: none;
     height: 2px;
     background-color: #ebb57e;
