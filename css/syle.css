@@ -41,10 +41,6 @@ body{
     object-position: center -50px;
 }
 
-.sidebar h2 {
-    margin-bottom: 20px;
-}
-
 .sidebar ul {
     list-style-type: none;
     padding: 0;
