@@ -49,8 +49,8 @@ body{
 
 .sidebar ul li {
     margin: 15px 0;
-    border-bottom: 1px #ebb57e; /* Adds a line */
-    padding-bottom: 5px; /* Adds spacing */
+    border-bottom: 1px solid #ebb57e; /* Adds a line */
+    padding-bottom: 10px; /* Adds spacing */
 }
 
 .sidebar ul li:last-child {
