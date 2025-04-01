@@ -49,6 +49,12 @@ body{
 
 .sidebar ul li {
     margin: 15px 0;
+    border-bottom: 1px #ebb57e; /* Adds a line */
+    padding-bottom: 5px; /* Adds spacing */
+}
+
+.sidebar ul li:last-child {
+    border-bottom: none; /* Removes line from last item */
 }
 
 .sidebar ul li a {
@@ -58,12 +64,6 @@ body{
 
 .sidebar ul li a:hover {
     text-decoration: underline;
-}
-
-.line{
-    border: none;
-    height: 2px;
-    background-color: #ebb57e;
 }
 
 .content {
