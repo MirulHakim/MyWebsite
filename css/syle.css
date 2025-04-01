@@ -76,8 +76,10 @@ body{
 }
 
 .center-img {
-    display: block;
-    margin: auto;
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    align-items: center;      /* Center horizontally */
+    text-align: center; 
   }
 
 table {
