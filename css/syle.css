@@ -15,8 +15,9 @@ body{
 }
 
 .sidebar{
+    min-height: 100vh; /* At least full screen height */
     width: 200px;
-    height: 100vh; /* full height */
+    height: 100%; /* full height */
     background-color: #ffc489;
     color: #000000;
     padding: 20px;
