@@ -12,12 +12,13 @@ body{
 
 .container {
     display: flex; /* makes sidebar and content sit side by side */
+    align-items: stretch; /* Makes sidebar grow with content */
+    min-height: 100vh; /* Ensures at least full screen height */
 }
 
 .sidebar{
-    min-height: 100vh; /* At least full screen height */
     width: 200px;
-    height: 100%; /* full height */
+    height: auto; /* Allow it to expand naturally */
     background-color: #ffc489;
     color: #000000;
     padding: 20px;
