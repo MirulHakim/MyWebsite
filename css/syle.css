@@ -61,11 +61,19 @@ body{
 }
 
 .sidebar ul li {
-    margin: 15px 0;
+    margin: 20px 0;
     border-bottom: 1px solid #056fad; /* Adds a line */
     padding-bottom: 10px; /* Adds spacing */
     font-weight: bold;
-    font-size: large;
+    font-size: medium;
+}
+
+.sidebar ul li:hover {
+    background-color: #51bfff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    padding: 10px 0px;
+    transition: 350ms;
 }
 
 .sidebar ul li:last-child {
@@ -73,8 +81,10 @@ body{
 }
 
 .sidebar ul li a {
+    margin: 15px 0px 15px 0px;
     color: #000000;
     text-decoration: none;
+    padding: 10px 50px 10px 10px;
 }
 
 .sidebar ul li a:hover {
@@ -84,6 +94,12 @@ body{
 .content {
     flex: 1; /* takes the rest of the space */
     padding: 20px;
+}
+
+.textstyle1{
+    width: 120vh;
+    font-size: large;
+    font-weight: 400;
 }
 
 .contact{
