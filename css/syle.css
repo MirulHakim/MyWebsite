@@ -28,7 +28,7 @@ body{
 }
 
 .sidebar{
-    width: 200px;
+    width: 300px;
     height: auto; /* Allow it to expand naturally */
     background-color: #2ba7ef;
     color: #000000;
@@ -64,6 +64,8 @@ body{
     margin: 15px 0;
     border-bottom: 1px solid #056fad; /* Adds a line */
     padding-bottom: 10px; /* Adds spacing */
+    font-weight: bold;
+    font-size: large;
 }
 
 .sidebar ul li:last-child {
